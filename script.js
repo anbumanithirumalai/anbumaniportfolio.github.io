@@ -46,7 +46,7 @@ contactForm.addEventListener("submit", (event) => {
   const message = formData.get("message");
 
   // Replace this with your real email address.
-  const recipient = "your-email@example.com";
+  const recipient = "anbusmvec08@gmail.com";
   const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
   const mailto = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   document.getElementById("formNote").textContent =
